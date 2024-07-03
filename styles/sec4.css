@@ -1,0 +1,42 @@
+#sec4 {
+  background-color: white;
+  color: black;
+}
+#sec4 p {
+  font-size: 22px;
+  margin: 0;
+  width: 23em;
+  text-align: center;
+  color: #5e5e5e;
+}
+#sec4 ul {
+  margin-bottom: 0.5em;
+  padding-left: 0;
+  color: #5e5e5e;
+}
+@media only screen and (max-width: 480px) {
+  #sec4 h1 {
+    font-size: 34px;
+  }
+  #sec4 ul {
+    font-size: 18px;
+  }
+  #sec4 p {
+    font-size: 18px;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #sec4 h1 {
+    font-size: 46px;
+  }
+  #sec4 ul {
+    font-size: 28px;
+  }
+  #sec4 p {
+    font-size: 27px;
+    margin-left: 0;
+    width: 100%;
+  }
+}

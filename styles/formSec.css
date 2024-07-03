@@ -1,0 +1,93 @@
+#formSec {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33em;
+  z-index: 102;
+  background-color: white;
+  padding: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#fsBG {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 101;
+  position: fixed;
+}
+#formClose {
+  float: right;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#formSec h1 {
+  font-size: 38px;
+  padding: 0.6em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-weight: 500;
+}
+#name,
+#phone {
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  font-size: 16px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-indent: 0.6em;
+  color: #6f6f6f;
+  border: 0.12em solid #f0f0f0;
+}
+#name:focus,
+#phone:focus {
+  outline: none;
+  border-color: #336ace;
+}
+#formSmbt {
+  margin-top: 0.5em;
+  height: fit-content;
+  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #ff5159;
+  padding: 0.8em 1.5em;
+  border-radius: 3em;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+#formSmbt:hover {
+  background-color: #b30023;
+}
+#formClose:hover {
+  transform: rotate(90deg);
+}
+@media only screen and (max-width: 591px) {
+  #formSec {
+    width: 100%;
+    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+  }
+  #formSec h1 {
+    font-size: 24px;
+  }
+  #name,
+  #phone {
+    width: 89vw;
+    padding-right: 0;
+  }
+  #formSec img {
+    margin-right: 1.5em;
+  }
+  #formSmbt {
+    font-size: 16px;
+  }
+}

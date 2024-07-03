@@ -1,0 +1,34 @@
+#ftr1div {
+  background-color: black;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 11.5em;
+  padding-right: 11.5em;
+}
+footer img {
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bolder;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  #ftr1div {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #ftr1div {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}

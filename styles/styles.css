@@ -1,0 +1,32 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+#preloader {
+  background: white url("/img/preloader.gif") no-repeat center center;
+  background-size: 20em;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+}
+#mainSec {
+  top: 11em;
+  position: relative;
+}
+@media only screen and (max-width: 480px) {
+  #mainSec {
+    top: 6em;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #mainSec {
+    top: 6em;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
